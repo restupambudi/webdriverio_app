@@ -1,4 +1,4 @@
-# WebdriverIO App
+# Installation WebdriverIO for Mobile Testing
 
 This project is a WebdriverIO setup for end-to-end mobile testing with Cucumber framework.
 
