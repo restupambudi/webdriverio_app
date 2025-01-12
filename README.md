@@ -59,14 +59,21 @@ This project is a WebdriverIO setup for end-to-end mobile testing with Cucumber 
         - Click **New**
 
     -  Add the following entries:
-        - %ANDROID_HOME%\platform-tools
-        - %ANDROID_HOME%\tools
-        - %ANDROID_HOME%\tools\bin
+        -   ```sh
+            %ANDROID_HOME%\platform-tools
+            ```
+        -   ```sh
+            %ANDROID_HOME%\tools
+            ```
+        -   ```sh
+            %ANDROID_HOME%\tools\bin
+            ```
 
     - Setting verification:
         - Open new Command Prompt
         - Type commands: echo **%ANDROID_HOME%**
-        -   ```sh
+        - Check adb version
+            ```sh
             adb --version
             ```
         - If the location of ANDROID_HOME and ADB version, then the setting is success
